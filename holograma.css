@@ -1,0 +1,260 @@
+
+/* corpo */
+body{
+    background-color: #dddddd;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header#cabecalho {
+    margin-bottom: 50px;
+}
+
+
+/* barra de navegação superior */
+nav a {
+    color: black;
+    text-decoration: none; 
+         
+}
+
+nav#menu{
+    display: block;
+    text-decoration: none; 
+   
+}
+
+
+nav#menu :hover {
+    display: block;
+    background-color: #606060;
+    text-decoration: none; 
+    color: #FFFFFF;
+    
+}
+
+a{
+    color:#606060;
+    text-decoration: none;
+}
+
+a :hover{
+    text-decoration: underline;
+}
+
+div.container-fluid{
+    background-color: #f7f4f4;
+    padding: 0.099%;
+    margin: 0px auto auto auto;
+    padding:  8px ;
+    box-shadow: 0px 0px 10px black;  
+}
+
+.myNav{
+    float: right;
+    padding: 10px;
+    margin: 2px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    /* background-color: #dddddd; */
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s ;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+    text-decoration: none; 
+    
+}
+
+.imagem{
+    margin-bottom: 50px;
+}
+
+hgroup{
+    margin-bottom: 20px;
+}
+
+.row1-fluid {
+    margin-bottom: 90px;
+}
+
+section#corpo-fluid{
+    display:block;
+    width: 60%;
+    float: left;
+    border-right: 1px solid;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-top: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside#lateral-fluid{
+    display: block;
+    width: 40%;
+    float: right;
+    padding: 0px 2px 0px 5px;
+    border-top: 1px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+     
+}
+
+aside#lateral-fluid article#segundario h2{
+    font-size: 20px;
+    color: #FFFFFF; 
+    background-color: #606060;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
+     
+}
+
+aside#lateral-fluid article#segundario {
+    background-color: #dddddd;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid black ;
+}
+
+
+/* titulo tecnologia */ 
+.box1-fluid{
+    background-color: rgb(0, 119, 255);
+    position: relative;
+    padding: 0%;
+    width: 100%;
+    color:white;
+    margin-bottom: 30px;
+    
+
+}
+
+/* envolve os dados sobre o site  e os link de contato como facebook*/
+.box-fluid{
+    font-size: 9px;
+    color: #606060;
+    margin-bottom: 120px;
+}
+
+/* dando um direcionamento para os links de contato como facebook */
+.contatos{
+    float: right;
+    margin: -20px -50px 0px auto; 
+    margin-bottom: 10px;
+}
+
+/* div direcionando a imagem do homem para a direita*/
+.imagem{
+    float: right;
+    margin: 120px -30px 0px auto; 
+}
+
+/* colocando borda e detalhamento da borda na imagem */
+figure.foto-legenda{
+    border: 3px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 125px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    padding: auto;
+   
+    
+   
+
+}
+
+/* trabalhando todas as imagens dentro das bordas */
+figure.foto-legenda .img-fluid{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    
+   
+    
+}
+
+/* colocando para aparecer a imagem quando o mouse ficar sobre a imagem */
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+/* configurando a legenda das fotos */
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+   
+}
+
+article#principal1 h2{
+    font-size: 20px;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
+
+}
+
+
+article#principal2 h2{
+    font-size: 20px;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
+}
+
+
+
+h1{
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+/* centralizando os titulos principais */
+h1, h5   {
+    text-align: center;
+}
+
+/* tamanho e cor do titulo embaixo do  titulo holograma */
+h5{
+    font-size: 20px;
+    color: gray;
+}
+
+/* formatação do paragrafo */
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+p#final{
+    text-align: center;
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
